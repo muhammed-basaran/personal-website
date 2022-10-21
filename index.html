@@ -5,34 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Website</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <header>
-    <nav id="navi">
-      <ul>
-        <li><a href="#aboutme">About Me</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#bio">Bio</a></li>
-        <li><a href="#link">Link</a></li>
+    <nav id="navigation" class="navigation">
+      <ul class="navi">
+        <li><a href="#aboutme">ABOUT ME</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="#bio">BIOGRAPHY</a></li>
+        <li><a href="#link">LINK</a></li>
       </ul>
     </nav>
   </header>
   <body>
-    <section id="me">
-      <h1 id="aboutme">About Me</h1>
-      <figure>
-        <img src="" alt="Profilbild" />
-        <figcaption>Muhammed Basaran</figcaption>
+    <h1 id="aboutme">About Me</h1>
+    <section class="me">
+      <figure class="box1">
+        <img src="./assets/anonymous.jpeg" alt="Profilbild" />
+        <figcaption class="pictitle">
+          <ul class="info1">
+            <li><strong>Name:</strong> Muhammed Basaran</li>
+            <li><strong>Age:</strong> 29 years</li>
+            <li><strong>Location:</strong> Germersheim</li>
+            <li><strong>Status:</strong> Web Developer in progress</li>
+          </ul>
+        </figcaption>
       </figure>
-      <p>Interests/Tags</p>
+      <figure class="box2">
+        <h5>Interested In</h5>
+        <ul class="info2">
+          <li>Front End Developer</li>
+          <li>Back End Developer</li>
+          <li>Software Engineer</li>
+        </ul>
+      </figure>
     </section>
-    <section id="connect">
-      <h2 id="contact">Contact</h2>
+    <h2 id="contact">Contact</h2>
+    <section class="connect">
+      <i class="fa-mail">&#9993;</i>
+      <span class="mail"> mbasaran0293@gmail.com</span>
+      <i class="fa-phone">&#9742;</i
+      ><span class="phone"> 0176 - 333 333 33</span>
     </section>
-    <section id="cv">
-      <h3 id="bio">Biography</h3>
+    <h3 id="bio">Biography</h3>
+    <section class="cv">
+      <ul class="info3">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
     </section>
-    <section id="social">
-      <h4 id="link">Links</h4>
+    <h4 id="link">Links</h4>
+    <section class="social">
+      
     </section>
   </body>
   <footer>© 2022</footer>
